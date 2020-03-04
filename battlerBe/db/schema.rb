@@ -14,11 +14,12 @@ ActiveRecord::Schema.define(version: 2020_03_04_172627) do
 
   create_table "mobs", force: :cascade do |t|
     t.string "name"
+    t.integer "hp"
     t.integer "level"
     t.integer "exp"
     t.integer "str"
     t.integer "agil"
-    t.integer "const"
+    t.integer "con"
     t.string "desc"
     t.string "img"
     t.datetime "created_at", precision: 6, null: false
@@ -27,10 +28,11 @@ ActiveRecord::Schema.define(version: 2020_03_04_172627) do
 
   create_table "monsts", force: :cascade do |t|
     t.string "name"
+    t.integer "hp"
     t.integer "exp"
     t.integer "str"
     t.integer "agil"
-    t.integer "const"
+    t.integer "con"
     t.string "img"
     t.string "desc"
     t.datetime "created_at", precision: 6, null: false
