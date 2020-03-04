@@ -1,0 +1,2 @@
+class Monstmove < ApplicationRecord
+end

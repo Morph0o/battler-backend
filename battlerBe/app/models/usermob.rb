@@ -1,0 +1,2 @@
+class Usermob < ApplicationRecord
+end

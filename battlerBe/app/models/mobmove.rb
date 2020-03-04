@@ -1,0 +1,2 @@
+class Mobmove < ApplicationRecord
+end

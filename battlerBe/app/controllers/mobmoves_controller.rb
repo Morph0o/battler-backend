@@ -1,0 +1,2 @@
+class MobmovesController < ApplicationController
+end

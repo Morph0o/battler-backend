@@ -1,0 +1,2 @@
+module MonstmovesHelper
+end
