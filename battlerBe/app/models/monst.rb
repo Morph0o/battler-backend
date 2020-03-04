@@ -1,0 +1,2 @@
+class Monst < ApplicationRecord
+end
