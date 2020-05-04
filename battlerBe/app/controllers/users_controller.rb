@@ -1,6 +1,8 @@
 class UsersController < ApplicationController
   #skip_before_action :require_login, only: [:create]
 
+  #   ^ ^  Uncomment when implementing auth for require login  ^ ^  (AUTH)
+
   def index
     @users = User.all
     render json: @users

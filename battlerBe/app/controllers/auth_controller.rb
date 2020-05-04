@@ -1,6 +1,9 @@
  class AuthController < ApplicationController
   #skip_before_action :require_login, only: [:login, :auto_login]
-  def login
+
+  #   ^ ^  Uncomment when implementing auth for require login  ^ ^   (AUTH)
+
+ def login
     user = User.find_by(username: params[:user][:name])
     if user && user.authenticate(params[:user][:password])
 
