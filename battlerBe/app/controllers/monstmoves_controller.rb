@@ -1,2 +1,0 @@
-class MonstmovesController < ApplicationController
-end
