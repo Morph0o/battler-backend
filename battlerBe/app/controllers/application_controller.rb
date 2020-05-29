@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
-  before_action :allow_cross_domain_ajax
+    before_action :allow_cross_domain_ajax
   #before_action :require_login
 
   #   ^ ^   Uncomment when implementing auth for require login  ^ ^   (AUTH)
